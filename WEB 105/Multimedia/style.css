@@ -1,0 +1,66 @@
+body
+{
+    background-image: url(spicy-69985_1280.jpg);
+}
+
+.container
+{
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+header
+{
+    background-image: url(skull-1745312_640.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+nav a
+{
+    color: black;
+    padding: 5px;
+    border-style: solid;
+    background-color: rgb(178,145,0);
+    border-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 2px auto;
+}
+
+nav
+{
+    text-align: center;
+    padding: 10px;
+    border-collapse:collapse;
+}
+
+main
+{
+    background-color: white;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+#Neuton
+{
+    font-family: 'Neuton', serif;
+    font-size: 20px;
+}
+
+h1
+{
+    font-size: 28px;
+    text-align: center;
+}
+
+footer
+{
+    background-color: greenyellow;
+    text-align: center;
+}

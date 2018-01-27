@@ -1,0 +1,64 @@
+body
+{
+    background: rgb(224, 255, 109);
+}
+
+.container
+{
+    background: rgb(134, 232, 124);
+    border-style: double;
+    border-color: rgb (122, 176, 255);
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+a
+{
+    color: purple;
+}
+
+a:hover
+{
+    color: red; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav
+{
+    text-align: center;
+}
+
+nav a
+{
+    color: whitesmoke;
+    background: black;
+    border-bottom-style: dashed;
+    border-color: gray;
+}
+
+#Neuton
+{
+    font-family: 'Neuton', serif;
+}
+
+#Rokkitt
+{
+    font-family: 'Rokkitt', serif;
+}
+
+#Ultra
+{
+    font-family: 'Ultra', serif;
+}
+
+#Sree_Krushnadevaraya
+{
+    font-family: 'Sree Krushnadevaraya', serif;
+}
+
+#Open_Sans
+{
+    font-family: 'Open Sans', sans-serif;
+}

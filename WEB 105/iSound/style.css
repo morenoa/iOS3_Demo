@@ -1,0 +1,40 @@
+body
+{
+    background-color: black;
+    font-family:fantasy;
+}
+
+.container
+{
+    max-width: 1060px;
+    padding: 5px;
+}
+
+header
+{
+    background-color: gold;
+    padding: 10px;
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover 
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: silver;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2, p
+{
+    color: white;
+}

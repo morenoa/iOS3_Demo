@@ -1,0 +1,86 @@
+body
+{
+    background: rgb(129,13,255);
+}
+
+.container
+{
+    border-color: rgb(13,156, 255);
+    border-style: groove;
+    border-width: 20px;
+    border-radius: 5px;
+    background: rgb(255,255,255);
+    margin: 20px auto;
+    padding: 20px;
+    border: 20px;
+    max-width: 800px;
+}
+
+header
+{
+    background-color: rgb(129,13,255);
+}
+
+header h1
+{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+        
+}
+
+.splash
+{
+    width: 160px;
+    height: 300px;
+    margin: 18px;
+    display: inline-block;
+}
+
+#RoyalPurp
+{
+    background: rgb(129, 13, 255);
+}
+
+#RoyalBlue
+{
+    background: rgb(57, 12, 232);
+}
+
+#BoyBlue
+{
+    background: rgb(12, 84, 232);
+}
+
+#babyBlue
+{
+    background: rgb(13, 156, 255)
+}
+
+.cursor
+{
+    cursor:crosshair;
+    color: red;
+}
+
+a
+{
+    color: greenyellow
+}
+
+a:hover
+{
+    color: green;
+}
+
+a:visited
+{
+    color: orange;
+}
+
+p
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 42px;
+}

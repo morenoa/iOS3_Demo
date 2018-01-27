@@ -1,0 +1,62 @@
+body
+{
+    background: rgb(0,152,255);
+    font-family: fantasy;
+    color: beige;
+}
+
+.container
+{
+    max-width: 1060px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(129,13,255);
+}
+
+nav li
+{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li a
+{
+    padding: 1px;
+    margin: 30;
+    background: rgb(0,255,75);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+hr
+{
+    border-style: outset;
+    border-width: 5px;
+    border-color:brown;
+}
+
+img
+{
+    width: 150px;
+    height: 150px;
+}
+
+#formatted img
+{
+    padding: 10px;
+    margin: 5px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgb(12,26,232);
+}
+
+#box img
+{
+    padding: 10px;
+    margin: 5px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgb(12,26,232);
+    box-sizing: border-box;
+}

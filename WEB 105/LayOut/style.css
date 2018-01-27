@@ -1,0 +1,66 @@
+body
+{
+    background-color: rgb(0,4,178);
+}
+
+.container
+{
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    max-width: 1060px;
+    margin: auto;
+    padding: 5px;
+}
+
+header h1
+{
+    font-family:monospace;
+    font-size: 46px;
+    text-align: center;
+}
+
+nav a
+{
+    color: black;
+    padding: 5px;
+    border-style: solid;
+    background-color: rgb(178,145,0);
+    border-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav
+{
+    text-align: center;
+    padding: 10px;
+    border-collapse:collapse;
+}
+
+#imgcenter
+{
+    text-align: center;
+    background-color: hotpink;
+}
+
+#imgright
+{
+    text-align: right;
+    background-color:orange;
+}
+
+#color1
+{
+    background-color: green;
+}
+
+#color2
+{
+    background-color:yellow;
+}
+
+#color4
+{
+    background-color:red;
+}

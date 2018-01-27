@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lists</title>
+    
+    <style>
+        body {
+            background-color: #d90000;
+            font-family: arial, helvetica, sans-serif;
+            color: #212121;
+        }
+
+        dt {
+            font-weight:800;
+            color: #000000;
+            line-height: 2;
+        }
+
+        
+        ul li {
+            list-style-type:upper-roman;
+        }
+
+        ul  li  ul li {
+            list-style-type:lower-roman;
+        }
+
+        .container {
+            min-height: 100px;
+            max-width: 960px;
+            background-color: #ffffff;;
+            border-radius: 5%;
+            border: 6px solid #000000;
+            margin: 15px auto;
+            padding: 5px 10px 10px 15px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #5582ff;
+        }
+    </style>
+</head>
+
+    <body>
+        <div class="container">
+            <h2>Unordered List</h2>
+            <li>Cut Chemist
+                <ul>
+                    <li>The Audience's Listening</li>
+                    <li>The Audience's Following</li>
+                </ul>
+            </li>
+            <li>Feine Sahne Fischfilet
+                <ul>
+                    <li>Scheitern Und Verstehen</li>
+                    <li>Wut im Bauch Trauer im Herzen</li>
+                </ul>
+            </li>
+        </div>
+        
+        <div class="container">
+            <h2>Ordered List</h2>
+            <ol type="1">
+                <li>Jason Statham
+                    <ol type="I">
+                        <li>Lock, Stock and Two Smoking Barrels</li>
+                        <li>Killer Elite</li>
+                    </ol>
+                </li>
+                <li>Willem Dafoe
+                    <ol type="I">
+                        <li>The Grand Budapest Hotel</li>
+                        <li>Platoon</li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="container">
+            <h2>Description List</h2>
+            <d1>
+                <dt>Responsive Design</dt>
+                <dd>which utilizes fluid grids, flexible images, and media queries to embrace the ebb and flow of the web so that your website is optimized no matter what device a visitor is using.</dd>
+                <dt>Dynamic Content</dt>
+                <dd>in a web development context refers specifically to the interactive features on a website.</dd>
+                <dt>Top-level Domain</dt>
+                <dd>Your domain name is what allows your site to be referenced on the Internet. Like "google.com"</dd>
+                <dt>CMS</dt>
+                <dd>A Content Management System (CMS) enables you to compose and upload content to your website.</dd>
+                <dt>UI</dt>
+                <dd>UI stands for User Interface, and involves evaluating what users’ needs are in order to provide as rich a usability experience as possible. </dd>
+            </d1>
+        </div>
+    </body>
+</html>
